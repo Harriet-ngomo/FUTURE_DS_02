@@ -1,4 +1,5 @@
 #  Facebook Ads Campaign Performance Analysis  
+<img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/user-attachments/assets/8f81ec79-3e1a-49d6-91cc-a4538eb31295" />
 
 Businesses invest heavily in social media ads but many struggle to answer critical questions:  
 
@@ -11,7 +12,7 @@ This project analyzes **Facebook Ads data** to uncover insights and builds an **
 
 ---
 
-## 📂 Dataset  
+##  Dataset  
 - **Source**: [Kaggle – Facebook Ad Campaign Dataset](https://www.kaggle.com/datasets/madislemsalu/facebook-ad-campaign)  
 - **Records**: 761 rows × 15 columns  
 - **Key fields**: `impressions`, `clicks`, `spent`, `total_conversion`, `approved_conversion`  
@@ -19,17 +20,19 @@ This project analyzes **Facebook Ads data** to uncover insights and builds an **
 ---
 
 ##  Tools & Technologies  
-- **Python (Pandas, Matplotlib, Seaborn)** → Data cleaning, EDA, metrics calculation  
-- **Power BI** → Interactive dashboard creation  
-- **Jupyter Notebook** → Exploratory analysis & visualization  
+- **Python (Pandas, Matplotlib, Seaborn)**: Data cleaning, EDA, metrics calculation  
+- **Power BI** : Interactive dashboard creation  
+- **Jupyter Notebook** : Exploratory analysis & visualization  
 
 ---
 
 ##  Project Workflow  
 ### 1. Data Cleaning & Preparation  
-- Converted date fields → datetime  
-- Handled missing values and duplicates  
-- Created new metrics (CTR, CPC, CPA, ROI, Conversion Rate)  
+- Fixed **misaligned data** using Google Sheets  
+- Converted **date fields** to `datetime` format  
+- Handled **missing values** and removed **duplicates**  
+- Created **new metrics**: CTR, CPC, CPA, ROI, Conversion Rate  
+
 
 ### 2. Exploratory Data Analysis (EDA)  
 - Summary statistics & distributions  
@@ -49,17 +52,43 @@ This project analyzes **Facebook Ads data** to uncover insights and builds an **
  
 <img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/user-attachments/assets/47accf11-f355-496c-a300-776f0a236487" />
 
-### Jupyter Notebook Visuals  
-<img width="570" height="352" alt="Screenshot 2025-09-10 000328" src="https://github.com/user-attachments/assets/88080e6e-5080-49ab-92e3-d992efbe1094" />
-<img width="420" height="347" alt="Screenshot 2025-09-10 000351" src="https://github.com/user-attachments/assets/2371d5a0-577d-4815-af13-e5d1c818a829" />
-<img width="530" height="402" alt="Screenshot 2025-09-10 000433" src="https://github.com/user-attachments/assets/071072e4-33c2-4181-92da-63718970d833" />
-<img width="532" height="355" alt="Screenshot 2025-09-10 000512" src="https://github.com/user-attachments/assets/110c34b5-1417-4a98-a06d-49cfc3faf13d" />
-<img width="768" height="493" alt="Screenshot 2025-09-10 000547" src="https://github.com/user-attachments/assets/1bc675ba-16d4-4187-9685-6c5b5d42cfd9" />
-<img width="422" height="350" alt="Screenshot 2025-09-10 000612" src="https://github.com/user-attachments/assets/86139177-317b-4480-a48b-241894e7bd7e" />
-<img width="546" height="363" alt="Screenshot 2025-09-10 000634" src="https://github.com/user-attachments/assets/74aefa35-3519-4fd7-b6c7-cbd2ff5962eb" />
+### JUPYTER NOTEBOOK VISUALS  
 
+**DISTRIBUTION OF CTR ACROSS ADS**  
+<p align="center">
+  <img width="570" height="352" src="https://github.com/user-attachments/assets/88080e6e-5080-49ab-92e3-d992efbe1094" />
+</p>  
 
----
+**AVERAGE CPA BY GENDER**  
+<p align="center">
+  <img width="420" height="347" src="https://github.com/user-attachments/assets/2371d5a0-577d-4815-af13-e5d1c818a829" />
+</p>  
+
+**CTR VS ROI**  
+<p align="center">
+  <img width="530" height="402" src="https://github.com/user-attachments/assets/071072e4-33c2-4181-92da-63718970d833" />
+</p>  
+
+**AVERAGE CPA BY AGE GROUP**  
+<p align="center">
+  <img width="532" height="355" src="https://github.com/user-attachments/assets/110c34b5-1417-4a98-a06d-49cfc3faf13d" />
+</p>  
+
+**SPEND VS APPROVED CONVERSIONS**  
+<p align="center">
+  <img width="768" height="493" src="https://github.com/user-attachments/assets/1bc675ba-16d4-4187-9685-6c5b5d42cfd9" />
+</p>  
+
+**ROI BY GENDER**  
+<p align="center">
+  <img width="422" height="350" src="https://github.com/user-attachments/assets/86139177-317b-4480-a48b-241894e7bd7e" />
+</p>  
+
+**CTR BY AGE GROUP**  
+<p align="center">
+  <img width="546" height="363" src="https://github.com/user-attachments/assets/74aefa35-3519-4fd7-b6c7-cbd2ff5962eb" />
+</p>  
+
 
 ## Key Insights  
 - Campaign delivered **78M+ impressions**, **11K+ clicks**, and **585 conversions** 
