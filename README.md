@@ -114,13 +114,13 @@ This project demonstrates how **data-driven insights** can guide smarter ad spen
 ##  Project Structure  
 ```bash
 ├── Data/
-│   └── data.csv               # Original dataset
+│   └── data.csv              
 ├── Images/                    
-│   ├── insights.png            # Power BI dashboard
-│   ├── ctr_age.png             # Jupyter plot
-│   ├── roi_ctr.png             # Jupyter plot
-│   └── cpa_gender.png          # Jupyter plot
-├── index.ipynb                # Jupyter Notebook (analysis & visuals)
-├── Facebook ads Report.pbix    # Power BI file
-├── FinalData.csv              # Processed dataset with new metrics
-└── README.md                  # Project documentation
+│   ├── insights.png          
+│   ├── ctr_age.png             
+│   ├── roi_ctr.png            
+│   └── cpa_gender.png          
+├── index.ipynb                
+├── Facebook ads Report.pbix   
+├── FinalData.csv             
+└── README.md               
