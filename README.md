@@ -105,6 +105,12 @@ This project analyzes **Facebook Ads data** to uncover insights and builds an **
 
 ---
 
+## Conclusion  
+The analysis highlights a clear gap between **reach and engagement**. While the campaign successfully delivered massive impressions, CTR remained poor limiting conversion efficiency. However, identifying **high-ROI ads** and **demographics with better performance** provides actionable direction for optimization  
+
+This project demonstrates how **data-driven insights** can guide smarter ad spend, improve targeting and ultimately maximize campaign ROI 
+---
+
 ##  Project Structure  
 ```bash
 ├── Data/
